@@ -1,0 +1,17 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.webpage-title {
+  text-align: center;
+  font-weight: 400;
+}
+
+.recipe-list {
+  text-align: right;
+}
+
+.intro-image {
+  display: block;
+  margin: 0 auto;
+}
