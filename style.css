@@ -1,17 +1,52 @@
 * {
   font-family: 'Courier New', Courier, monospace;
+  padding: 0px;
+  margin: 0px;
 }
 
-.webpage-title {
+.main-title {
   text-align: center;
   font-weight: 400;
 }
 
 .recipe-list {
-  text-align: right;
+  display: inline-block;
+  width: 100vw;
+  text-align: center;
+}
+
+.first-recipe {
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.second-recipe {
+  width: 200px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.webpage-title {
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
 }
 
 .intro-image {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
+}
+
+.first-recipe a {
+  color: black;
+}
+
+.second-recipe a {
+  color: black;
 }
